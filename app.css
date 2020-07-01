@@ -1,9 +1,6 @@
 
 
-*{
-    background: teal;
-    
-}
+
 
 
 input{
@@ -27,6 +24,7 @@ input{
 
 body{
     padding: 25px;
+    background-color: teal;
 }
 
 .container{
@@ -45,4 +43,23 @@ padding-bottom: 25px;
 
   .desc{
       display: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+   .container{
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; 
+    
+   }
+
+   .container a {
+   
+    width: 47%;
+    text-align: center;
+
+   }
+
   }
