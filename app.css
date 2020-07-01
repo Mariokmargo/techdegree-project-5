@@ -9,8 +9,21 @@
 input{
     margin-bottom: 25px;
     width: 100%;
+    background-color: whitesmoke;
+    color: teal;
+    font-size: 16px;
+    padding: 10px;
   
 }
+
+::placeholder { 
+    color:teal;
+    opacity: 1; 
+  }
+
+ 
+
+
 
 body{
     padding: 25px;
