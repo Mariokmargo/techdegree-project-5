@@ -9,7 +9,7 @@ input{
     background-color: whitesmoke;
     color: teal;
     font-size: 16px;
-    padding: 10px;
+    padding: 12px;
   
 }
 
@@ -61,5 +61,29 @@ padding-bottom: 25px;
     text-align: center;
 
    }
+
+  }
+
+  @media only screen and (min-width: 1024px){
+
+    .box{
+
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 25px;
+    }
+
+    body{
+    max-width: 1350px;
+    margin: auto;    
+    }
+
+
+  .container a {
+
+    width: 23%;
+    text-align: center;
+  }
+
 
   }
